@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <title>Calculadora de Costo de Viaje</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Costo de Viaje</h1>
+        <div class="input-group">
+            <label for="tipo">Tipo de Autobús:</label>
+            <select id="tipo">
+                <option value="A">Tipo A</option>
+                <option value="B">Tipo B</option>
+                <option value="C">Tipo C</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="personas">Cantidad de Personas:</label>
+            <input type="number" id="personas" placeholder="Personas">
+        </div>
+        <div class="input-group">
+            <label for="kilometros">Kilómetros:</label>
+            <input type="number" id="kilometros" placeholder="Kilómetros">
+        </div>
+        <button id="calcular">Calcular</button>
+        <p id="resultado"></p>
+        <p id="resultado1"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

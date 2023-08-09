@@ -1,0 +1,80 @@
+/* Resetear estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(223,114,162);
+    background: radial-gradient(circle, rgba(223,114,162,1) 0%, rgba(207,152,255,1) 100%);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 70vh;
+
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Borel', cursive;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: rgb(223,114,162);
+    background: radial-gradient(circle, rgba(223,114,162,1) 0%, rgba(207,152,255,1) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: rgb(223,114,162);
+    background: radial-gradient(circle, rgba(223,114,162,1) 0%, rgba(107,35,171,1) 100%);
+}
+
+#resultado,
+#resultado1 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
